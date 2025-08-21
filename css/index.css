@@ -24,8 +24,12 @@
 /* conteudo da pagina: */
 hr{
     color: rgb(166, 195, 221);
+
 }
 
+.corPreto a:focus{
+    color: rgb(13, 13, 97);
+}
 /* rodape da pagina */
 
 body{
