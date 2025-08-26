@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paladar Secreto</title>
+  <link rel="stylesheet" href="../../framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .Secreto {
+      background-image: linear-gradient(to right, #3b1d1c, #5a3d3b, #79605d, #9a8582, #bbaba9);
+    }
+
+    .carousel-container {
+      width: 80%;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding-top: 20px;
+    }
+
+    .carousel-inner img {
+      height: 500px;
+      object-fit: cover;
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .produto {
+      text-align: center;
+      background: rgb(236, 236, 236);
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .produto img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #241110;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary; Secreto">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" ; style="font-family: fantasy; color: rgb(236, 236, 236);">PALADAR SECRETO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" ;
+                style="font-family: fantasy; color: rgb(255, 255, 255) ;">Inicio</a>
+            </li>
+            <li class="nav-item"></li>
+            <a class="nav-link" href="../projeto 2/Quem somos.html" ;
+              style="font-family: fantasy; color: rgb(255, 255, 255);">Quem Somos</a>
+            </li>
+            <li class="nav-item"></li>
+            <a class="nav-link"
+              href="https://bravigastronomia.com.br/wp-content/uploads/2024/03/Cardapio-bravi-2024.pdf" ;
+              style="font-family: fantasy; color: rgb(255, 255, 255);">Cardapio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#localizacao" ;
+                style="font-family: fantasy; color: rgb(255, 255, 255);">Loclização</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true" ;
+                style="font-family: fantasy; color: rgb(51, 38, 32);">Área VIP</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Conteudo da pag -->
+  <main class="flex-fill">
+
+
+
+
+
+
+
+    <section>
+      <div id="carouselDoces" class="carousel slide" data-bs-ride="carousel" class="col-12 col-md-6">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="../img/1.png" class="d-block w-100" alt="Bolo">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: #ffffff;">Café da Manhã</h5>
+              <p style="color: #ffffff;">Feitos com os melhores produtos.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="../img/2.png" class="d-block w-100" alt="Doces">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Pratos Finos</h5>
+              <p>Perfeitos para saborear.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="../img/3.png" class="d-block w-100" alt="Bebidas">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: #000000;">Comidas Estrangeiras</h5>
+              <p style="color: #000000;">Para apreciar cada pedacinho .</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselDoces" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselDoces" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <div class="py-5" style="background-color: #432d2d; min-height: 110vh;" id="bolos">
+        <h2 class="mb-4 text-center" style="color: #ffffff; font-family: Georgia, serif; font-size: 28px;">
+          Unidades
+        </h2>
+
+        <div class="produtos">
+          <div class="produto">
+            <img src="https://paparotocucina.com.br/wp-content/uploads/2025/06/IMG_0596-1.png"
+              alt="Bolo à Moda da Casa">
+            <h3>Paladar Jk</h3>
+            <p>Av. Pres. Juscelino Kubitschek, 2041 - Térreo - Vila
+              Nova Conceição, São Paulo - SP, 04543-011</p>
+          </div>
+
+          <div class="produto">
+            <img src="https://paparotocucina.com.br/wp-content/uploads/2025/06/IMG_0656-1.png" alt="u">
+            <h3>Paladar Complexo Parque da Cidade</h3>
+            <p>Av. das Nações Unidas, 14401 - Chácara Santo Antônio,
+              São Paulo - SP, 04730-090</p>
+          </div>
+
+          <div class="produto">
+            <img src="https://paparotocucina.com.br/wp-content/uploads/2025/06/IMG_8625-1.png" alt="p">
+            <h3>Pladar Pinheiros</h3>
+            <p>Rua Joaquim Antunes, 470, Térreo, Lojas 01 e 02, Pinheiros,
+              São Paulo - SP, 05415-001</p>
+          </div>
+
+          <div class="produto">
+            <img src="https://paparotocucina.com.br/wp-content/uploads/2025/06/foto07.png" alt="o">
+            <h3>Paladar Cidade Jardim </h3>
+            <p>Av. Magalhães de Castro, 12.000 • São Paulo • SP.</p>
+          </div>
+
+          <div class="produto">
+            <img
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_800/https://mocoto.com.br/wp-content/uploads/2018/04/cortina.jpg"
+              alt="j">
+            <h3>Paladar Bela Cintra </h3>
+            <p>R. Bela Cintra, 1958 • São Paulo • SP.</p>
+          </div>
+
+          <div class="produto">
+            <img src="https://paparotocucina.com.br/wp-content/uploads/2025/06/foto07.png" alt="o">
+            <h3>Paladar RJ </h3>
+            <p>Rua Aprazivel 62, Santa Teresa
+              Rio de Janeiro (RJ) - Brasil</p>
+          </div>
+
+
+
+
+          <div class="py-5 min-height: 110vh;">
+            <h2 id="localizacao" class="mb-4 text-center"
+              style="color: #ffffff; font-family: Georgia, serif; font-size: 28px;">
+              Localização
+            </h2>
+            <tr class="d-flex justify-content-center mt-4 ">
+              <td><iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.3591826190373!2d-46.6898191!3d-23.591448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5758d3548d13%3A0x89b2eced7816e8c5!2sShopping%20JK%20Iguatemi!5e0!3m2!1spt-BR!2sbr!4v1756215877542!5m2!1spt-BR!2sbr"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </tr>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+  <footer class="footer mt-auto">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#" style="color: #ffffff;">TODOS OS DIREITOS RESEVADOS
+          @2025</a>
+      </li>
+    </ul>
+  </footer>
+  <script src="../../framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
